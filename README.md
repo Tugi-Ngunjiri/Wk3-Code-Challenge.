@@ -1,7 +1,6 @@
-##Wk-3-Code-Challenge
-
-##Project
-
-##By Tugi-Ngunjiri
-
+Wk3-Code-Challenge.
 Liscence(ISC)
+
+By Tugi-Ngunjiri
+
+ ##Project
