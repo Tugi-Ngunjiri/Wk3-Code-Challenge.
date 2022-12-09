@@ -13,7 +13,7 @@ Liscence(ISC)
  <br>
 
  1.Create a Git Repository.
- 
+
 <br>
 2. Git clone the repository in the terminal.
 <br>
@@ -48,6 +48,31 @@ a)Run npm install json-server command.
 Step 3;
 a)Run  the json-server  --watch  db.json --port 3004 command.
 <br>
+
+
+<br>
+--Description--
+
+<br>
+1.Create a movie website of your choice that has great characteristics.
+
+<br>
+
+2.Create various movies un the website.
+
+<br>
+
+3.Create Urls for  the movies being showcased.
+
+<br>
+
+4.Fetch the movie Urls from your certain browser eg.Firefox or Chrome.
+
+<br>
+5.Add the various movies to your website from VsCode.
+
+<br>
+
 
 
 
