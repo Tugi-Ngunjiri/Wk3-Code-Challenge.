@@ -73,6 +73,13 @@ a)Run  the json-server  --watch  db.json --port 3004 command.
 
 <br>
 
+6.Remember to submit your Url to the code-3 submission slot.
+
+<br>
+
+7.(Use git add  . &&  git commit -m  "done"  && git push origin master or main when done with your code challenge)
+
+--End of Project--
 
 
 
