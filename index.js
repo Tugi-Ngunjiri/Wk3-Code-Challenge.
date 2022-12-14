@@ -4,8 +4,9 @@ function getMovies(){
  .then(res => res.json())
  .then(data  =>{
     console.log(data)
-    //data.forEach(element => {
-        //diti(element)
+    data.forEach(data =>(
+    let ul = getElementById(list)   
+    ))
     });
 }
 getMovies()
