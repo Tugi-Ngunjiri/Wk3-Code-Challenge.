@@ -1,3 +1,27 @@
+
 function getMovies(){
-fetch(url); <input>type="text/javascript" name="movies" value=".db.json"</input>
+ fetch("http://localhost:3000/films")
+ .then(res => res.json())
+ .then(data  =>{
+    console.log(data)
+    //data.forEach(element => {
+        //diti(element)
+    });
 }
+getMovies()
+
+// function diti(movi)
+
+//     console.log(movi.title);
+//     inf(movi)
+    
+// console.log("helllo");
+
+// function inf(movi){
+//     fetch("http://localhost:3000/films")
+//     console.log(movi.description);
+//     console.log(movi.capacity);
+// }
+
+// getElementById(data)
+
