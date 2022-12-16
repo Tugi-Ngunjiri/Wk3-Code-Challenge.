@@ -6,42 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video in Html</title>
 </head>
-<h1>Trending Movies</h1>
-<h1 style="color:rgb(0, 174, 255);">A list of 15 Movies</h1>
+<h1 style="background-color:red ;">Trending Movies</h1>
 
-<p style="color:rgb(31, 190, 39);">Here they are;</p>
-<p style="background-color:blue ;"></p>
-<body>
+<body style="background-color:lightcoral ;">
   <div class="p-3 mb-2 bg-success text-white">
-  <h1 id="myHeader">My Header</h1>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div id="Movie_List">
-        <ul id="list">
-        </ul>
-    </div>
-</nav>
-    <div id="detailList">
-        <ul id="Movielist">
-  </ul>
-
-    </div>
-    <br>
-    <div id="MovieDetails">
-            <h2 id="MovieName"></h2>
-    </div>
-
-    <script src="./index.js"></script>
-</div>
+  <h1 id="myHeader" style="background-color:red ;">Movies to watch;</h1>
 </body>
-</html>
+<h1>Fetch GetMovies</h1>
+<button id="btnClick">Fetch Movies Now!</button>
+<img id="image"><br>
+1.The Giant Gila Monster.<br>
+
+
+  <script src="./index.js"></script>
   
 
-<script src="./index.js"></script>
+<!DOCTYPE HTML>
+<html>
+  
+<head>
+    <title>
+        How to create an image element
+        dynamically using JavaScript ?
+    </title>    
+</head>
+  
+<body id = "body" style = "text-align:center;">
+      
+    <h1 style = "color:red;" >
+        Movies
+    </h1>
+      
+    <p id = "GFG_UP" style =
+            "font-size: 15px; font-weight: bold;">
+    </p>
+      
+    <button onclick = "GetMovies()">
+        click here
+    </button>
+      
+    <p id="image" style =
+            "color:red; font-size: 20px; font-weight: bold;">
+    </p>
+      
+    <script>
+        var up = document.getElementById('Getmovies');
+        up.innerHTML = "Click on the button to add image element";
+        var down = document.getElementById('Gt_movies');
 
+        function GetMovies() {
+            var img = document.createElement('img');
+            img.src ="https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
 
+            document.getElementById('body').appendChild(img);
+            down.innerHTML = "Image Element Added.";
+        }
 
-</div>
-
+    </script>
+</body>
+  
+</html>
 </body>
 </html>
 
